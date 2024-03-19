@@ -646,7 +646,7 @@ export default {
 .wrapper {
   margin-top: 16px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .left-site {
   width: 20%;
