@@ -85,8 +85,8 @@ export default {
           answers: [
             "a. Nâng cao trách nhiệm của cơ quan, tổ chức và người đứng đầu; chú trọng phối hợp liên ngành về phòng, chống bạo lực gia đình.",
             "b. Phát huy vai trò, trách nhiệm của cá nhân, gia đình, cộng đồng.",
-            "c. Thực hiện trách nhiệm nêu gương trong phòng, chống bạo lực gia đình đối với cán bộ, công chức, viên chức và người thuộc lực lượng vũ trangnhân dân",
-            "d. Tất cả đáp án trên",
+            "c. Thực hiện trách nhiệm nêu gương trong phòng, chống bạo lực gia đình đối với cán bộ, công chức, viên chức và người thuộc lực lượng vũ trang nhân dân.",
+            "d. Tất cả đáp án trên.",
           ],
         },
         {
@@ -104,9 +104,9 @@ export default {
             "Câu 8. Theo Luật Phòng, chống bạo lực gia đình năm 2022 thì một trong những nguyên tắc phòng, chống bạo lực gia đình là ưu tiên bảo vệ quyền và lợi ích hợp pháp của ai?",
           answers: [
             "a. ưu tiên bảo vệ quyềnvà lợi ích hợp pháp của người bị bạo lực gia đình là phụ nữ mang thai, phụ nữ đang nuôi con dưới 36 tháng tuổi, người cao tuổi, người khuyết tật, người không có khả năng tự chăm sóc.",
-            "b. ưu tiên bảo vệ quyềnvà lợi ích hợp pháp của người bị bạo lực gia đình là phụ nữ và trẻ em",
-            "c. ưu tiên bảo vệ quyềnvà lợi ích hợp pháp của người bị bạo lực gia đình là phụ nữ mang thai, phụ nữ đang nuôi con dưới 12 tháng tuổi",
-            "d. ưu tiên bảo vệ quyềnvà lợi ích hợp pháp của người bị bạo lực gia đình là trẻ em, phụ nữ mang thai, phụ nữ đang nuôi con dưới 36 tháng tuổi, người cao tuổi, người khuyết tật, người không có khả năng tự chăm sóc",
+            "b. ưu tiên bảo vệ quyềnvà lợi ích hợp pháp của người bị bạo lực gia đình là phụ nữ và trẻ em.",
+            "c. ưu tiên bảo vệ quyềnvà lợi ích hợp pháp của người bị bạo lực gia đình là phụ nữ mang thai, phụ nữ đang nuôi con dưới 12 tháng tuổi.",
+            "d. ưu tiên bảo vệ quyềnvà lợi ích hợp pháp của người bị bạo lực gia đình là trẻ em, phụ nữ mang thai, phụ nữ đang nuôi con dưới 36 tháng tuổi, người cao tuổi, người khuyết tật, người không có khả năng tự chăm sóc.",
           ],
         },
         {
@@ -140,7 +140,7 @@ export default {
           answers: [
             "a. Chính sách, pháp luật về phòng, chống bạo lực gia đình.",
             "b. Quyền và nghĩa vụ con người trong gia đình.",
-            "c. Truyền thống của con người, gia đình Việt Nam",
+            "c. Truyền thống của con người, gia đình Việt Nam.",
             "d. Kiến thức về ngăn chặn hành vi bạo lực gia đình.",
           ],
         },
@@ -358,7 +358,7 @@ export default {
       const answers = document.querySelectorAll(".answer");
       const bth_finish = document.querySelector(".btn-finish");
       if (selectedAnswers) {
-        if (confirm(`Bạn đã hoàn thành ${selectedAnswers.length}/20 !!!`)) {
+        if (confirm(`Bạn có chắc chăn hoàn thành bài thi ?`)) {
           this.result();
           this.stopTimer();
           this.finishandshow = true;
@@ -632,7 +632,7 @@ export default {
   justify-content: center;
   background-color: #0468cc;
   align-items: center;
-  padding: 16px;
+  padding: 12px;
 }
 .title {
   color: red;
