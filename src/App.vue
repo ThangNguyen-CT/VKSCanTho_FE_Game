@@ -27,7 +27,7 @@ export default {
       disabledAnwser: false,
       numberAccess: "",
       p: 0,
-      answers: [2, 3, 3, 1, 3, 1, 3, 1, 3, 3, 2, 0, 3, 2, 0, 2, 3, 2, 2, 0],
+      answers: [2, 3, 3, 1, 3, 1, 3, 1, 3, 3, 0, 0, 3, 2, 0, 2, 3, 2, 2, 2],
       questions: [
         {
           question:
@@ -126,12 +126,12 @@ export default {
         },
         {
           question:
-            "Câu 11.  Quyền và trách nhiệm của cá nhân trong phòng, chống bạo lực gia đình ? ",
+            "Câu 11. Theo Luật Phòng, chống bạo lực gia đình năm 2022 thì hành vi Tiết lộ hoặc phát tán thông tin về đời sống riêng tư, bí mật cá nhân và bí mật gia đình của thành viên gia đình trong trường hợp nào dưới đây là hành vi bạo lực gia đình ?",
           answers: [
-            "a. Được khen thưởng khi có thành tích trong phòng, chống bạo lực gia đình theo quy định của pháp luật về thi đua, khen thưởng; được bảo vệ, giữ bí mật về thông tin cá nhân khi báo tin, tố giác hành vi bạo lực gia đình",
-            "b. Được bảo vệ, giữ bí mật về thông tin cá nhân khi báo tin, tố giác hành vi bạo lực gia đình; được Nhà nước hỗ trợ để bù đắp tổn hại về sức khỏe, tính mạng và thiệt hại về tài sản khi tham gia phòng, chống bạo lực gia đình theo quy định của Chính phủ.",
-            "c. Được khen thưởng khi có thành tích trong phòng, chống bạo lực gia đình theo quy định của pháp luật về thi đua, khen thưởng; được bảo vệ, giữ bí mật về thông tin cá nhân khi báo tin, tố giác hành vi bạo lực gia đình; được Nhà nước hỗ trợ để bù đắp tổn hại về sức khỏe, tính mạng và thiệt hại về tài sản khi tham gia phòng, chống bạo lực gia đình theo quy định của Chính phủ.",
-            "d. Tất cả đều đúng",
+            "a. nhằm xúc phạm danh dự, nhân phẩm",
+            "b. trong mọi trường hợp",
+            "c. trong trường hợp thành viên gia đình không đồng ý",
+            "d. Tất cả đáp án trên",
           ],
         },
         {
@@ -215,12 +215,12 @@ export default {
         },
         {
           question:
-            "Câu 20. Ai là đối tượng cho Việc tư vấn về phòng, chống bạo lực gia đình tập trung vào ?",
+            "Câu 20. Theo Luật Phòng, chống bạo lực gia đình năm 2022 thì nội dung nào dưới đây là Nguyên tắc phòng, chống bạo lực gia đình ?",
           answers: [
-            "a. Người bị bạo lực gia đình và Người có hành vi bạo lực gia đình;",
-            "b. Trẻ em, phụ nữ mang thai, phụ nữ đang nuôi con dưới 18 tháng tuổi, người cao tuổi, người khuyết  tật, người không có khả năng tự chăm sóc; người sống ở vùng đồng bào dân tộc thiểu số và miền núi, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn;",
-            "c. Người không thường xuyên có hành vi cổ xúy cho bạo lực, kỳ thị, phân biệt đối xử về giới, giới tính, định kiến giới;",
-            "d. Người đã kết hôn.",
+            "a. Phòng ngừa là chính, lấy người bạo lực gia đình là trung tâm.",
+            "b. Xử lý vi phạm là chính, lấy người bị bạo lực gia đình là trung tâm.",
+            "c. Phòng ngừa là chính, lấy người bị bạo lực gia đình là trung tâm.  ",
+            "d. Phòng ngừa và xử lý vi phạm là chính, lấy người bị bạo lực gia đình là trung tâm.",
           ],
         },
       ],
@@ -602,7 +602,7 @@ export default {
     <div class="answer-show" v-show="showAnwserGame">
       <div class="questions" v-for="item in questions">
         <p class="questionn">
-          Câu hỏi : <span>{{ item.question }}</span>
+          <span>{{ item.question }}</span>
         </p>
         <div
           class="answers d-flex flex-wrap justify-content-center align-items-center"
