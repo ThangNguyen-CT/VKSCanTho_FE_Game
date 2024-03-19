@@ -27,7 +27,7 @@ export default {
       disabledAnwser: false,
       numberAccess: "",
       p: 0,
-      answers: [2, 3, 3, 1, 3, 1, 3, 1, 3, 3, 0, 0, 3, 2, 0, 2, 3, 2, 2, 2],
+      answers: [2, 3, 3, 1, 3, 3, 3, 0, 3, 3, 0, 0, 3, 2, 0, 2, 3, 2, 2, 2],
       questions: [
         {
           question:
@@ -81,12 +81,12 @@ export default {
         },
         {
           question:
-            "Câu 6. Nguyên tắc đầu tiên theo luật phòng, chống bạo lực gia đình quy định là nguyên tắc nào ?",
+            "Câu 6. Theo Luật Phòng, chống bạo lực gia đình năm 2022 thì nội dung nào dưới đây là nguyên tắc   phòng, chống bạo lực gia đình ?",
           answers: [
-            "a. Tôn trọng, bảo vệ quyền và lợi ích hợp pháp của người có liên quan; bảo đảm lợi ích tốt nhất của trẻ em; ưu tiên bảo vệ quyền và lợi ích hợp pháp của người bị bạo lực gia đình là phụ nữ mang thai, phụ nữ đang nuôi con dưới 36 tháng tuổi, người cao tuổi, người khuyết tật, người không có khả năng tự chăm sóc; thực hiện bình đẳng giới.",
-            "b. Phòng ngừa là chính, lấy người bị bạo lực gia đình là trung tâm.",
-            "c. Nâng cao trách nhiệm của cơ quan, tổ chức và người đứng đầu; chú trọng phối hợp liên ngành về phòng, chống bạo lực gia đình.",
-            "d. Chú trọng hoạt động tuyên truyền, giáo dục, tư vấn, hòa giải trong phòng, chống bạo lực gia đình.",
+            "a. Nâng cao trách nhiệm của cơ quan, tổ chức và người đứng đầu; chú trọng phối hợp liên ngành về phòng, chống bạo lực gia đình.",
+            "b. Phát huy vai trò, trách nhiệm của cá nhân, gia đình, cộng đồng.",
+            "c. Thực hiện trách nhiệm nêu gương trong phòng, chống bạo lực gia đình đối với cán bộ, công chức, viên chức và người thuộc lực lượng vũ trangnhân dân",
+            "d. Tất cả đáp án trên",
           ],
         },
         {
@@ -101,12 +101,12 @@ export default {
         },
         {
           question:
-            "Câu 8. Đâu là đáp án lời đúng nhất về Chính sách của Nhà nước về phòng, chống bạo lực gia đình ?",
+            "Câu 8. Theo Luật Phòng, chống bạo lực gia đình năm 2022 thì một trong những nguyên tắc phòng, chống bạo lực gia đình là ưu tiên bảo vệ quyền và lợi ích hợp pháp của ai?",
           answers: [
-            "a. Khuyến khích cơ quan, tổ chức, cá nhân viện trợ, tài trợ, tặng cho, đóng góp, hỗ trợ, ủng hộ, đầu tư kinh phí, nhân lực, cơ sở vật chất, nhu yếu phẩm cho công tác phòng, chống bạo lực gia đình; phát triển mạng lưới cộng tác viên dân số tham gia công tác gia đình, phòng, chống bạo lực gia đình ở cộng đồng.",
-            "b. Khuyến khích sáng tác văn học, nghệ thuật về phòng, chống bạo lực gia đình; ứng dụng khoa học, công nghệ thông tin trong phòng, chống bạo lực gia đình.",
-            "c. Biểu dương, khen thưởng cơ quan, tổ chức, cá nhân có thành tích trong phòng, chống bạo lực gia đình; có chế độ hỗ trợ để bù đắp tổn hại về sức khỏe, tính mạng cho cá nhân tham gia phòng, chống bạo lực gia đình.",
-            "d. Nhà nước bố trí ngân sách để thực hiện hiệu quả công tác phòng, chống bạo lực gia đình; ưu tiên vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn.",
+            "a. ưu tiên bảo vệ quyềnvà lợi ích hợp pháp của người bị bạo lực gia đình là phụ nữ mang thai, phụ nữ đang nuôi con dưới 36 tháng tuổi, người cao tuổi, người khuyết tật, người không có khả năng tự chăm sóc.",
+            "b. ưu tiên bảo vệ quyềnvà lợi ích hợp pháp của người bị bạo lực gia đình là phụ nữ và trẻ em",
+            "c. ưu tiên bảo vệ quyềnvà lợi ích hợp pháp của người bị bạo lực gia đình là phụ nữ mang thai, phụ nữ đang nuôi con dưới 12 tháng tuổi",
+            "d. ưu tiên bảo vệ quyềnvà lợi ích hợp pháp của người bị bạo lực gia đình là trẻ em, phụ nữ mang thai, phụ nữ đang nuôi con dưới 36 tháng tuổi, người cao tuổi, người khuyết tật, người không có khả năng tự chăm sóc",
           ],
         },
         {
