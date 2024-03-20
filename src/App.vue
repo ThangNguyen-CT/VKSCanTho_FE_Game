@@ -661,11 +661,6 @@ export default {
   width: 100%;
   height: 250px;
 }
-/* .right-site {
-  width: 200px;
-  height: 100px;
-  background-color: bisque;
-} */
 .question-title {
   width: 200px;
 }
@@ -676,8 +671,8 @@ export default {
 }
 .answer,
 .answerr {
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 400;
   margin: 5px;
   width: 49%;
   height: 150px;
@@ -751,5 +746,121 @@ button {
   font-weight: 200;
   font-size: 16px;
   text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .title {
+    margin-left: 6px;
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+  .question,
+  .questionn,
+  .answer,
+  .answerr,
+  .showResult h2,
+  .showResult h5,
+  .showResult div h2,
+  .showResult div h3 {
+    font-size: 12px;
+  }
+  .question,
+  .questionn {
+    margin: 0 !important;
+  }
+  .left-site {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .wrapper .center-site {
+    display: none;
+  }
+  .btn-list {
+    flex-wrap: wrap;
+  }
+  .answer,
+  .answerr {
+    width: 90%;
+    height: 100%;
+  }
+  .answers {
+    display: block;
+  }
+  .btn-list button,
+  .btn-access {
+    font-size: 12px;
+    background-color: #e00204;
+    padding: 12px;
+    width: 150px;
+  }
+  .forecasted {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .title {
+    margin-left: 6px;
+    margin-bottom: 0;
+    font-size: 22px;
+  }
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+  .question,
+  .questionn,
+  .answer,
+  .answerr,
+  .showResult h2,
+  .showResult h5,
+  .showResult div h2,
+  .showResult div h3 {
+    font-size: 16px;
+  }
+  .question,
+  .questionn {
+    margin: 0 !important;
+  }
+  .left-site {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .wrapper .center-site {
+    display: none;
+  }
+  .btn-list {
+    flex-wrap: wrap;
+  }
+  .answer,
+  .answerr {
+    width: 90%;
+    height: 100%;
+  }
+  .answers {
+    display: block;
+  }
+  .btn-list button,
+  .btn-access {
+    font-size: 16px;
+    background-color: #e00204;
+    padding: 16px;
+    width: 150px;
+  }
+  .forecasted {
+    width: 100%;
+    font-size: 20px;
+  }
 }
 </style>
