@@ -27,207 +27,248 @@ export default {
       disabledAnwser: false,
       numberAccess: "",
       p: 0,
-      answers: [2, 3, 3, 1, 3, 3, 3, 0, 3, 3, 0, 0, 3, 2, 0, 2, 3, 2, 2, 2],
+      answers: [],
       questions: [
         {
           question:
-            "Câu 1. Luật Phòng, chống bạo lực gia đình số 13/2022/QH15 gồm bao nhiêu chương, bao nhiêu điều luật ?",
+            "Luật Phòng, chống bạo lực gia đình số 13/2022/QH15 gồm bao nhiêu chương, bao nhiêu điều luật ?",
           answers: [
             "a. 4 chương, 54 điều",
             "b. 5 chương, 55 điều",
             "c. 6 chương, 56 điều",
             "d. Tất cả đáp án trên đều sai",
           ],
+          answer: 2,
         },
         {
           question:
-            "Câu 2. Luật phòng, chống bạo lực gia đình 2022 có hiệu lực thi hành từ ngày, tháng, năm nào ?",
+            "Luật phòng, chống bạo lực gia đình 2022 có hiệu lực thi hành từ ngày, tháng, năm nào ?",
           answers: [
             "a. 01 tháng 6 năm 2022",
             "b. 01 tháng 7 năm 2022",
             "c. 01 tháng 6 năm 2023",
             "d. 01 tháng 7 năm 2023",
           ],
+          answer: 3,
         },
         {
           question:
-            "Câu 3. Trong Luật phòng, chống bạo lực gia đình 2022, hành vi 'Bạo lực gia đình' được hiểu như sau :",
+            "Trong Luật phòng, chống bạo lực gia đình 2022, hành vi 'Bạo lực gia đình' được hiểu như sau :",
           answers: [
             "a. là hành vi cố ý của thành viên gia đình gây tổn hại hoặc có khả năng gây tổn hại về thể chất, tinh thần đối với thành viên khác trong gia đình.",
             "b. là hành vi cố ý của thành viên gia đình gây tổn hại hoặc có khả năng gây tổn hại về tình dục đối với thành viên khác trong gia đình.",
             "c. là hành vi cố ý của thành viên gia đình gây tổn hại hoặc có khả năng gây tổn hại về kinh tế đối với thành viên khác trong gia đình.",
             "d. là hành vi cố ý của thành viên gia đình gây tổn hại hoặc có khả năng gây tổn hại về thể chất, tinh thần, tình dục, kinh tế đối với thành viên khác trong gia đình.",
           ],
+          answer: 3,
         },
         {
           question:
-            "Câu 4.Trong Luật phòng, chống bạo lực gia đình 2022 thì 'Cấm tiếp xúc' là biện pháp như thế nào ?",
+            "Trong Luật phòng, chống bạo lực gia đình 2022 thì 'Cấm tiếp xúc' là biện pháp như thế nào ?",
           answers: [
             "a. cấm người có hành vi bạo lực gia đình đến gần người bị bạo lực gia đình.",
             "b. cấm người có hành vi bạo lực gia đình đến gần người bị bạo lực gia đình hoặc sử dụng phương tiện, công cụ để thực hiện hành vi bạo lực gia đình.",
             "c.  cấm người có hành vi bạo lực gia đình sử dụng phương tiện để thực hiện hành vi bạo lực gia đình.",
             "d. cấm người có hành vi bạo lực gia đình sử dụng công cụ để thực hiện hành vi bạo lực gia đình.",
           ],
+          answer: 1,
         },
         {
           question:
-            "Câu 5. Đâu là Hành vi bạo lực gia đình trong các hành vi nào sau đây ?",
+            "Đâu là Hành vi bạo lực gia đình trong các hành vi nào sau đây ?",
           answers: [
             "a. Hành hạ, ngược đãi, đánh đập, đe dọa hoặc hành vi cố ý khác xâm hại đến sức khỏe, tính mạng;",
             "b. Lăng mạ, chì chiết hoặc hành vi cố ý khác xúc phạm danh dự, nhân phẩm;",
             "c. Cưỡng ép chứng kiến bạo lực đối với người, con vật nhằm gây áp lực thường xuyên về tâm lý;",
             "d. Tất cả các đáp án trên",
           ],
+          answer: 3,
         },
         {
           question:
-            "Câu 6. Theo Luật Phòng, chống bạo lực gia đình năm 2022 thì nội dung nào dưới đây là nguyên tắc   phòng, chống bạo lực gia đình ?",
+            "Theo Luật Phòng, chống bạo lực gia đình năm 2022 thì nội dung nào dưới đây là nguyên tắc   phòng, chống bạo lực gia đình ?",
           answers: [
             "a. Nâng cao trách nhiệm của cơ quan, tổ chức và người đứng đầu; chú trọng phối hợp liên ngành về phòng, chống bạo lực gia đình.",
             "b. Phát huy vai trò, trách nhiệm của cá nhân, gia đình, cộng đồng.",
             "c. Thực hiện trách nhiệm nêu gương trong phòng, chống bạo lực gia đình đối với cán bộ, công chức, viên chức và người thuộc lực lượng vũ trang nhân dân.",
             "d. Tất cả đáp án trên.",
           ],
+          answer: 3,
         },
         {
           question:
-            " Câu 7. Hành vi nào bị nghiêm cấm trong phòng, chống bạo lực gia đình trong các hành vi sau đây ?",
+            "Hành vi nào bị nghiêm cấm trong phòng, chống bạo lực gia đình trong các hành vi sau đây ?",
           answers: [
             "a. Cản trở việc phát hiện, báo tin, tố giác, ngăn chặn và xử lý hành vi bạo lực gia đình.",
             "b. Dung túng, bao che, không xử lý, xử lý không đúng quy định của pháp luật đối với hành vi bạo lực gia đình.",
             "c. Kích động, xúi giục, lôi kéo, dụ dỗ, giúp sức, cưỡng ép người khác thực hiện hành vi bạo lực gia đình.",
             "d. Tất cả các hành vi trên.",
           ],
+          answer: 3,
         },
         {
           question:
-            "Câu 8. Theo Luật Phòng, chống bạo lực gia đình năm 2022 thì một trong những nguyên tắc phòng, chống bạo lực gia đình là ưu tiên bảo vệ quyền và lợi ích hợp pháp của ai?",
+            "Theo Luật Phòng, chống bạo lực gia đình năm 2022 thì một trong những nguyên tắc phòng, chống bạo lực gia đình là ưu tiên bảo vệ quyền và lợi ích hợp pháp của ai?",
           answers: [
             "a. ưu tiên bảo vệ quyềnvà lợi ích hợp pháp của người bị bạo lực gia đình là phụ nữ mang thai, phụ nữ đang nuôi con dưới 36 tháng tuổi, người cao tuổi, người khuyết tật, người không có khả năng tự chăm sóc.",
             "b. ưu tiên bảo vệ quyềnvà lợi ích hợp pháp của người bị bạo lực gia đình là phụ nữ và trẻ em.",
             "c. ưu tiên bảo vệ quyềnvà lợi ích hợp pháp của người bị bạo lực gia đình là phụ nữ mang thai, phụ nữ đang nuôi con dưới 12 tháng tuổi.",
             "d. ưu tiên bảo vệ quyềnvà lợi ích hợp pháp của người bị bạo lực gia đình là trẻ em, phụ nữ mang thai, phụ nữ đang nuôi con dưới 36 tháng tuổi, người cao tuổi, người khuyết tật, người không có khả năng tự chăm sóc.",
           ],
+          answer: 0,
         },
         {
           question:
-            "Câu 9. Tháng hành động quốc gia phòng, chống bạo lực gia đình được tổ chức vào tháng mấy hằng năm ?",
+            "Tháng hành động quốc gia phòng, chống bạo lực gia đình được tổ chức vào tháng mấy hằng năm ?",
           answers: ["a. Tháng 3 ", "b. Tháng 4", "c. Tháng 5", "d. Tháng 6"],
+          answer: 3,
         },
         {
           question:
-            "Câu 10.  Nội dung hợp tác quốc tế về phòng, chống bạo lực gia đình bao gồm :",
+            "Nội dung hợp tác quốc tế về phòng, chống bạo lực gia đình bao gồm :",
           answers: [
             "a. Tham gia tổ chức quốc tế; ký kết, thực hiện điều ước quốc tế, thỏa thuận quốc tế về phòng, chống bạo lực gia đình; Xây dựng và thực hiện chương trình, dự án, hoạt động về phòng, chống bạo lực gia đình;",
             "b. Trao đổi thông tin và kinh nghiệm về phòng, chống bạo lực gia đình; Nghiên cứu khoa học, đào tạo nguồn nhân lực về phòng, chống bạo lực gia đình.",
             "c. Tất cả đều sai",
             "d. Tất cả đều đúng",
           ],
+          answer: 3,
         },
         {
           question:
-            "Câu 11. Theo Luật Phòng, chống bạo lực gia đình năm 2022 thì hành vi Tiết lộ hoặc phát tán thông tin về đời sống riêng tư, bí mật cá nhân và bí mật gia đình của thành viên gia đình trong trường hợp nào dưới đây là hành vi bạo lực gia đình ?",
+            "Theo Luật Phòng, chống bạo lực gia đình năm 2022 thì hành vi Tiết lộ hoặc phát tán thông tin về đời sống riêng tư, bí mật cá nhân và bí mật gia đình của thành viên gia đình trong trường hợp nào dưới đây là hành vi bạo lực gia đình ?",
           answers: [
             "a. nhằm xúc phạm danh dự, nhân phẩm",
             "b. trong mọi trường hợp",
             "c. trong trường hợp thành viên gia đình không đồng ý",
             "d. Tất cả đáp án trên",
           ],
+          answer: 0,
         },
         {
           question:
-            "Câu 12. Đâu là nội dung chính xác nhất liên đến thông tin, truyền thông, giáo dục ?",
+            "Đâu là nội dung chính xác nhất liên đến thông tin, truyền thông, giáo dục ?",
           answers: [
             "a. Chính sách, pháp luật về phòng, chống bạo lực gia đình.",
             "b. Quyền và nghĩa vụ con người trong gia đình.",
             "c. Truyền thống của con người, gia đình Việt Nam.",
             "d. Kiến thức về ngăn chặn hành vi bạo lực gia đình.",
           ],
+          answer: 0,
         },
         {
           question:
-            "Câu 13. Cá nhân khi phát hiện hành vi bạo lực gia đình có trách nhiệm sau đây :",
+            "Cá nhân khi phát hiện hành vi bạo lực gia đình có trách nhiệm sau đây :",
           answers: [
             "a. Báo tin, tố giác ngay cho cơ quan, tổ chức, cá nhân có thẩm quyền quy định tại khoản 1 Điều 19 của Luật Phòng, chống bạo lực gia đình;",
             "b. Tham gia bảo vệ, hỗ trợ người bị bạo lực gia đình và các hoạt động phòng, chống bạo lực gia đình ở cộng đồng.",
             "c. Cả hai đều sai",
             "d. Cả hai đều đúng",
           ],
+          answer: 3,
         },
         {
-          question:
-            "Câu 14. Hòa giải trong phòng, chống bạo lực gia đình là ? ",
+          question: "Hòa giải trong phòng, chống bạo lực gia đình là ? ",
           answers: [
             "a. Hòa giải trong phòng, chống bạo lực gia đình là việc người tiến hành hòa giải hướng dẫn các bên tự nguyện giải quyết mâu thuẫn, tranh chấp giữa các thành viên gia đình để không làm phát sinh, tái diễn hành vi bạo lực gia đình.",
             "b. Hòa giải trong phòng, chống bạo lực gia đình không thay thế biện pháp xử lý người có hành vi bạo lực gia đình.",
             "c. Cả hai đều đúng",
             "d. Cả hai đều sai",
           ],
+          answer: 2,
         },
         {
-          question: "Câu 15. Cơ sở trợ giúp phòng, chống bạo lực gia đình :",
+          question: "Cơ sở trợ giúp phòng, chống bạo lực gia đình :",
           answers: [
             "a. Cơ sở khám bệnh, chữa bệnh;",
             "b. Ủy ban nhân dân các cấp",
             "c. Công an xã",
             "d. Ban chỉ huy quân sự địa phương",
           ],
+          answer: 0,
         },
         {
           question:
-            "Câu 16. Địa chỉ tiếp nhận tin báo, tố giác về hành vi bạo lực gia đình :",
+            "Địa chỉ tiếp nhận tin báo, tố giác về hành vi bạo lực gia đình :",
           answers: [
             "a. Tòa án nhân dân cấp huyện",
             "b. Viện kiểm sát nhân dân cấp tỉnh",
             "c. Ủy ban nhân dân cấp xã nơi xảy ra hành vi bạo lực gia đình;",
             "d. Sở Tư pháp ",
           ],
+          answer: 2,
         },
         {
           question:
-            "Câu 17. Việc báo tin, tố giác về hành vi bạo lực gia đình thực hiện bằng hình thức nào ?",
+            "Việc báo tin, tố giác về hành vi bạo lực gia đình thực hiện bằng hình thức nào ?",
           answers: [
             "a. Gọi điện, nhắn tin;",
             "b. Gửi đơn, thư;",
             "c. Trực tiếp báo tin.",
             "d. Tất cả các hình thức trên",
           ],
+          answer: 3,
         },
         {
           question:
-            "Câu 18. Ai là đối tượng cho Việc tư vấn về phòng, chống bạo lực gia đình tập trung vào ?",
+            "Ai là đối tượng cho Việc tư vấn về phòng, chống bạo lực gia đình tập trung vào ?",
           answers: [
             "a. Người bị bạo lực gia đình và Người có hành vi bạo lực gia đình;",
             "b. Trẻ em, phụ nữ mang thai, phụ nữ đang nuôi con dưới 18 tháng tuổi, người cao tuổi, người khuyết  tật, người không có khả năng tự chăm sóc; người sống ở vùng đồng bào dân tộc thiểu số và miền núi, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn;",
             "c. Người không thường xuyên có hành vi cổ xúy cho bạo lực, kỳ thị, phân biệt đối xử về giới, giới tính, định kiến giới;",
             "d. Người đã kết hôn.",
           ],
+          answer: 2,
         },
         {
-          question:
-            "Câu 19.  Nội dung tư vấn về phòng, chống bạo lực gia đình ?",
+          question: "Nội dung tư vấn về phòng, chống bạo lực gia đình ?",
           answers: [
             "a. Thông tin, kiến thức, pháp luật về phòng, chống bạo lực gia đình, hôn nhân và gia đình, giới, bình đẳng giới và quy định của pháp luật có liên quan; quyền và trách nhiệm của người bị bạo lực gia đình, thành viên khác trong gia đình;",
             "b. Kỹ năng ứng xử trong gia đình, tổ chức đời sống gia đình, xây dựng gia đình hạnh phúc, xử lý khi xảy ra hành vi bạo lực gia đình, chăm sóc người bị bạo lực gia đình.",
             "c. Cả hai đều đúng",
             "d. Cả hai đều sai",
           ],
+          answer: 2,
         },
         {
           question:
-            "Câu 20. Theo Luật Phòng, chống bạo lực gia đình năm 2022 thì nội dung nào dưới đây là Nguyên tắc phòng, chống bạo lực gia đình ?",
+            "Theo Luật Phòng, chống bạo lực gia đình năm 2022 thì nội dung nào dưới đây là Nguyên tắc phòng, chống bạo lực gia đình ?",
           answers: [
             "a. Phòng ngừa là chính, lấy người bạo lực gia đình là trung tâm.",
             "b. Xử lý vi phạm là chính, lấy người bị bạo lực gia đình là trung tâm.",
             "c. Phòng ngừa là chính, lấy người bị bạo lực gia đình là trung tâm.  ",
             "d. Phòng ngừa và xử lý vi phạm là chính, lấy người bị bạo lực gia đình là trung tâm.",
           ],
+          answer: 2,
         },
       ],
     };
   },
   components: {},
   methods: {
+    pushAnwer() {
+      for (var i = 0; i <= this.questions.length - 1; i++) {
+        this.answers[i] = this.questions[i].answer;
+      }
+    },
+    randomQuetion(array) {
+      var currentIndex = array.length,
+        temporaryValue,
+        randomIndex;
+      // While there remain elements to shuffle
+      while (0 !== currentIndex) {
+        // Pick a remaining element
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+
+        // Swap it with the current element
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+      }
+      this.questions = array;
+      this.pushAnwer();
+    },
     //Time
     startTimer: function () {
       const selectedAnswers = JSON.parse(
@@ -239,6 +280,7 @@ export default {
       if (selectedAnswers) {
         localStorage.removeItem("selectedAnswers");
       }
+      this.randomQuetion(this.questions);
     },
     stopTimer() {
       clearInterval(this.timer);
@@ -282,6 +324,7 @@ export default {
       }
     },
     backQuestion() {
+      if (this.p == 0) this.p = 20;
       if (this.p > 0) this.p--;
       const answers = document.querySelectorAll(".answer");
       for (var i = 0; i < answers.length; i++) {
@@ -337,7 +380,6 @@ export default {
     checkAnwser() {
       const selectedAnswers = this.answers;
       const questionElements = document.querySelectorAll(".questions");
-      const answers = document.querySelectorAll(".answerr");
       for (var i = 0; i < questionElements.length; i++) {
         var questionElement = questionElements[i];
         var answerElements = questionElement.querySelectorAll(".answerr");
@@ -350,6 +392,9 @@ export default {
         });
       }
       this.showAnwserGame = true;
+    },
+    closeCheckAnwser() {
+      this.showAnwserGame = false;
     },
     finish() {
       const selectedAnswers = JSON.parse(
@@ -410,6 +455,47 @@ export default {
       } catch (error) {
         console.log(error);
       }
+    },
+    printed() {
+      const name = this.user.name;
+      const location = this.user.location;
+      const phone = this.user.phone;
+      const dudoan = this.user.number;
+      const time =
+        24 -
+        this.resultTime.minutes +
+        " phút " +
+        (60 - this.resultTime.seconds) +
+        " giây ";
+      const printWindow = window.open("", "_blank");
+      printWindow.document.write(
+        "<html><head><title>Kết quả bài thi</title></head><body>"
+      );
+      printWindow.document.write(
+        "<h1 style='text-align:center;'>Thông tin bài thi</h1>"
+      );
+      printWindow.document.write(
+        "<p style='text-align:center;'>" + "Họ và tên :" + name + "</p>"
+      );
+      printWindow.document.write(
+        "<p style='text-align:center;'>" + "Đơn vị :" + location + "</p>"
+      );
+      printWindow.document.write(
+        "<p style='text-align:center;'>" + "Số điện thoại :" + phone + "</p>"
+      );
+      printWindow.document.write(
+        "<p style='text-align:center;'>" +
+          "Số người bạn dự đoán :" +
+          dudoan +
+          "</p>"
+      );
+      printWindow.document.write(
+        "<p style='text-align:center;'>" + "Thời gian làm bài :" + time + "</p>"
+      );
+
+      printWindow.document.write("</body></html>");
+      // In nội dung
+      printWindow.print();
     },
   },
   computed: {
@@ -513,7 +599,7 @@ export default {
       <h2 class="question-title text-center w-100">Câu hỏi</h2>
       <div class="wrapper-question">
         <p class="question ml-2">
-          <span>{{ questions[p].question }}</span>
+          <span>Câu hỏi {{ this.p + 1 }} : {{ questions[p].question }}</span>
         </p>
         <div
           class="answers d-flex flex-wrap justify-content-center align-items-center"
@@ -595,14 +681,20 @@ export default {
               : 60 - resultTime.seconds + " giây"
           }}
         </h3>
+        <button
+          class="btn btn-danger mr-4 ml-4 mt-4 btn-print"
+          @click="printed()"
+        >
+          In kết quả
+        </button>
       </div>
-
       <!-- Đáp án -->
     </div>
     <div class="answer-show" v-show="showAnwserGame">
-      <div class="questions" v-for="item in questions">
+      <span class="close" @click="closeCheckAnwser()">Đóng</span>
+      <div class="questions" v-for="(item, index) in questions">
         <p class="questionn">
-          <span>{{ item.question }}</span>
+          <span>Câu hỏi {{ index + 1 }} : {{ item.question }}</span>
         </p>
         <div
           class="answers d-flex flex-wrap justify-content-center align-items-center"
@@ -747,6 +839,15 @@ button {
   font-size: 16px;
   text-align: center;
 }
+.close {
+  font-size: 12px;
+  width: 50px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: gray;
+  color: #000;
+}
 @media only screen and (max-width: 600px) {
   .title {
     margin-left: 6px;
@@ -802,6 +903,9 @@ button {
   .forecasted {
     width: 100%;
     font-size: 20px;
+  }
+  .btn-print {
+    display: none;
   }
 }
 
@@ -861,6 +965,9 @@ button {
   .forecasted {
     width: 100%;
     font-size: 20px;
+  }
+  .btn-print {
+    display: none;
   }
 }
 </style>
