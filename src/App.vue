@@ -291,9 +291,15 @@ export default {
       return (time < 10 ? "0" : "") + time;
     },
     countdown: function () {
+      const answers = document.querySelectorAll(".answer");
+      const bth_finish = document.querySelector(".btn-finish");
       if (this.totalTime == 0) {
         alert("Hết thời gian làm bài !!!");
         this.finish();
+        answers.forEach(function (item, index) {
+          item.classList.add("disabled");
+        });
+        bth_finish.classList.add("disabled");
         clearInterval(this.timer);
       }
       if (this.totalTime > 0) {
@@ -403,16 +409,15 @@ export default {
       const answers = document.querySelectorAll(".answer");
       const bth_finish = document.querySelector(".btn-finish");
       if (selectedAnswers) {
-        if (confirm(`Bạn có chắc chăn hoàn thành bài thi ?`)) {
-          this.result();
-          this.stopTimer();
-          this.finishandshow = true;
-          this.forecast = true;
-          answers.forEach(function (item, index) {
-            item.classList.add("disabled");
-          });
-          bth_finish.classList.add("disabled");
-        }
+        alert(`Hoàn thành bài thi !!!`);
+        this.result();
+        this.stopTimer();
+        this.finishandshow = true;
+        this.forecast = true;
+        answers.forEach(function (item, index) {
+          item.classList.add("disabled");
+        });
+        bth_finish.classList.add("disabled");
       } else {
         alert("Bạn chưa hoàn thành bài thi");
       }
@@ -490,7 +495,10 @@ export default {
           "</p>"
       );
       printWindow.document.write(
-        "<p style='text-align:center;'>" + "Thời gian làm bài :" + time + "</p>"
+        "<p style='text-align:center;'>" +
+          "Thời gian làm bài : " +
+          time +
+          "</p>"
       );
 
       printWindow.document.write("</body></html>");
