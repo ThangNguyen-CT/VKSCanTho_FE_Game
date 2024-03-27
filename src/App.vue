@@ -68,7 +68,7 @@ export default {
           answers: [
             "a. cấm người có hành vi bạo lực gia đình đến gần người bị bạo lực gia đình.",
             "b. cấm người có hành vi bạo lực gia đình đến gần người bị bạo lực gia đình hoặc sử dụng phương tiện, công cụ để thực hiện hành vi bạo lực gia đình.",
-            "c.  cấm người có hành vi bạo lực gia đình sử dụng phương tiện để thực hiện hành vi bạo lực gia đình.",
+            "c. cấm người có hành vi bạo lực gia đình sử dụng phương tiện để thực hiện hành vi bạo lực gia đình.",
             "d. cấm người có hành vi bạo lực gia đình sử dụng công cụ để thực hiện hành vi bạo lực gia đình.",
           ],
           answer: 1,
@@ -147,7 +147,7 @@ export default {
         },
         {
           question:
-            "Đâu là nội dung chính xác nhất liên đến thông tin, truyền thông, giáo dục ?",
+            "Đâu là nội dung chính xác nhất liên quan đến thông tin, truyền thông, giáo dục ?",
           answers: [
             "a. Chính sách, pháp luật về phòng, chống bạo lực gia đình.",
             "b. Quyền và nghĩa vụ con người trong gia đình.",
@@ -699,6 +699,8 @@ export default {
       <!-- Đáp án -->
     </div>
     <div class="answer-show" v-show="showAnwserGame">
+      <p>Câu trả lời của người thi : <span class="color-player"></span></p>
+      <p>Câu trả lời đúng : <span class="color-anwsertrue"></span></p>
       <span class="close" @click="closeCheckAnwser()">Đóng</span>
       <div class="questions" v-for="(item, index) in questions">
         <p class="questionn">
@@ -855,6 +857,18 @@ button {
   border-radius: 10px;
   background-color: gray;
   color: #000;
+}
+.color-player {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: yellow;
+}
+.color-anwsertrue {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #3399fe;
 }
 @media only screen and (max-width: 600px) {
   .title {
