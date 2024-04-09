@@ -281,8 +281,13 @@ export default {
         localStorage.removeItem("selectedAnswers");
       }
       this.randomQuetion(this.questions);
+      const audio = document.querySelector(".audio");
+      audio.play();
     },
+
     stopTimer() {
+      const audio = document.querySelector(".audio");
+      audio.pause();
       clearInterval(this.timer);
       this.timer = null;
       this.resetButton = true;
@@ -444,6 +449,8 @@ export default {
       alert("Hết giờ");
     },
     access(a) {
+      const audiovotay = document.querySelector(".audiovotay");
+      audiovotay.play();
       alert("Dự đoán thành công");
       localStorage.setItem("Access", JSON.stringify(+a));
       this.forecast = false;
@@ -505,6 +512,11 @@ export default {
       // In nội dung
       printWindow.print();
     },
+    handleAudioEnded() {
+      const audio = document.querySelector(".audio");
+      audio.currentTime = 0;
+      audio.play();
+    },
   },
   computed: {
     minutes: function () {
@@ -531,6 +543,12 @@ export default {
     <img src="./assets/img/logovks.png" alt="logoVKS" class="logo" />
     <h2 class="text-center title">VIỆN KIỂM SÁT NHÂN DÂN THÀNH PHỐ CẦN THƠ</h2>
   </div>
+  <audio controls class="audio" @ended="handleAudioEnded">
+    <source src="./assets/music/nhacnengame.mp3" type="audio/mpeg" />
+  </audio>
+  <audio controls class="audiovotay">
+    <source src="./assets/music/tiengvotay.mp3" type="audio/mpeg" />
+  </audio>
   <div class="user" v-if="showInfo">
     <form class="form-user" action="" @submit.prevent="accessUser()">
       <div class="mb-3 mt-3 form-style">
@@ -869,6 +887,10 @@ button {
   width: 10px;
   height: 10px;
   background-color: #3399fe;
+}
+.audio,
+.audiovotay {
+  display: none;
 }
 @media only screen and (max-width: 600px) {
   .title {
